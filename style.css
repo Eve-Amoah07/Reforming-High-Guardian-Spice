@@ -1,0 +1,187 @@
+html {
+	height: 950%;
+	width: fit-content;
+	background-image: url(Jhazelroth-hgs-bg-forest.jpeg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 8px #a789fb;
+	outline: solid 15px #FF729F;
+	outline-style: groove;
+	outline-width: thick;
+	margin: 5px;
+}
+
+h1 {
+	text-decoration: double underline #ae475f;
+	text-align: center;
+	font-size: 500%;
+	text-shadow: #804752 2px 5px;
+	font-family: 'Tilt Prism', cursive;
+	color: #f58a96;
+	white-space: nowrap;
+}
+
+p1 {
+	border: thick double #a41e65;
+	background-image: linear-gradient(#f5add3, #f566ab);
+	border-style: dashed double none;
+	border-spacing: 100px;
+	border-block: 3px solid;
+	text-align: center;
+	font: italic 2.0em "Trade Winds";
+	white-space: nowrap;
+	color: #6e122d;
+	background-color: rgb(101 98 86 / 0.75)
+}
+
+/* #ED96BB - Amaranth Pink
+	#60435F - English Violet
+	#836B7C - Mountbatten Pink
+	#917A78 - Cinereous
+	#A69398 - Rose Quarts
+	#C9BBB4 - Silver
+	#DBCFC2 - Bone
+	#ECE2D0 - Bone(Bleached)
+	#B4E4D5 - Tiffany Blue 
+	#E56399 - Thulian Pink*/
+
+.img1 {
+	position: static;
+	height: auto;
+	width: 77%;
+	transform: scale(1.25) translate(0%, 10%);
+	display: block;
+	top: 0;
+	left: 0;
+	image-rendering: crisp-edges;
+	z-index: 1;
+}
+
+.img2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -26%);
+	z-index: 2;
+	max-width: 30%;
+	height: auto;
+
+	@media (min-width: 768px) and (min-height: 768px) {
+		.img2 {
+			width: 20%;
+			transform: translate(-30%, -16%);
+		}
+
+		/*justify-content: center;
+	align-content: center;
+	position: relative;
+	height: auto;
+	width: auto;
+	transform: scale(0.40) translate(-50%, -105%);
+	top: 0px;
+	display: block;
+  margin-left: 36%;
+	margin-top: 375px;*/
+	}
+}
+
+.AuthorText {
+	background-color: rgb(184 214 193 / 0.75);
+	border: 2mm ridge #836B7C;
+	text-align: center;
+	margin: 7em;
+	margin-top: 5em;
+	margin-bottom: 9em;
+}
+
+.fullscreen-disclaimer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+	display: none;
+	/* Initially hide the disclaimer */
+}
+
+.disclaimer-content {
+	background: #d392ac;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+	outline: solid 15px #FF729F;
+	outline-style: groove;
+	outline-width: thick;
+	font: 2.0em "Bahiana";
+}
+
+.disclaimer-content button {
+	background: #c36586;
+	color: #f2c9eb;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	outline: solid 15px #FF729F;
+	outline-style: groove;
+	outline-width: thick;
+	font: italic 1.0em "Trade Winds";
+}
+
+h2 {
+	text-align: center;
+	text-decoration: wavy underline overline;
+	font: bold italic 1.5em "Monda";
+	color: #70053e;
+}
+
+p4 {
+	text-align: center;
+	font: bold italic 1.35em "Zen Loop";
+	color: #300f39;
+}
+
+.StartDescription {
+	background-image: linear-gradient(#f4c8df, #f273b0);
+	border: 4mm ridge #a41e65;
+	border-radius: 100px;
+	text-align: center;
+	font: italic 1.5em "Text Me One";
+	color: #a41e65;
+	padding: 0.5em 5em;
+	margin: 0;
+	display: inline-block;
+	align-items: center;
+	align-self: center;
+}
+
+.StartDescriptionContent {
+	background-clip: content-box;
+	display: inline-block;
+	width: 1000px;
+	text-align: center;
+	align-content: center;
+
+}
+
+
+
+p2 {
+	text-align: end;
+	font-size: 100%;
+	font: caption;
+	color: #0e2b08;
+	white-space: nowrap;
+}
+
+a {
+	background-color: #71806b;
+	font: italic 1.0em 'Times New Roman';
+	white-space: nowrap;
+}
