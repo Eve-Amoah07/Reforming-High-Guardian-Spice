@@ -24,7 +24,7 @@ h1 {
 	white-space: nowrap;
 }
 
-p1 {
+.subheading {
 	border: thick double #a41e65;
 	background-image: linear-gradient(#f5add3, #f566ab);
 	border-style: dashed double none;
@@ -61,20 +61,21 @@ p1 {
 }
 
 .img2 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -26%);
-	z-index: 2;
-	max-width: 30%;
-	height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -26%);
+  z-index: 2;
+  max-width: 30%;
+  height: auto;
+}
 
-	@media (min-width: 768px) and (min-height: 768px) {
-		.img2 {
-			width: 20%;
-			transform: translate(-30%, -16%);
-		}
-
+@media (min-width: 768px) and (min-height: 768px) {
+  .img2 {
+    width: 20%;
+    transform: translate(-30%, -16%);
+  }
+}
 		/*justify-content: center;
 	align-content: center;
 	position: relative;
