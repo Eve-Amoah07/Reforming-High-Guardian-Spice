@@ -20,7 +20,7 @@ function checkViewportSize() {
 	const fullScreenWidth = screen.width;
 	const fullScreenHeight = screen.height;
 
-	if (screenWidth < fullScreenWidth - 0 || screenHeight < fullScreenHeight - 100) {
+	if (screenWidth < fullScreenWidth || screenHeight < fullScreenHeight - 100) {
 		showDisclaimer();
 	} else {
 		hideDisclaimer();
